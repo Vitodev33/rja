@@ -1,0 +1,5 @@
+<ul>
+    {% for oseba in osebe %}
+    <li>{{ oseba.ime }}</li>
+    {% endfor %}
+</ul>
